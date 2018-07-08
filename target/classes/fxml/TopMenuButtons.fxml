@@ -16,11 +16,19 @@
          </toggleGroup></ToggleButton>
       <ToggleButton mnemonicParsing="false" onAction="#openListBook" prefHeight="80.0" prefWidth="150.0" text="%list.books" toggleGroup="$toggleButtons" />
       <ToggleButton mnemonicParsing="false" onAction="#openStatistics" prefHeight="80.0" prefWidth="150.0" text="%stats" toggleGroup="$toggleButtons" />
+<<<<<<< HEAD
       <Button minHeight="80.0" mnemonicParsing="false" onAction="#addBook" prefHeight="80.0" prefWidth="136.0" text="%add_book">
          <graphic>
             <ImageView fitHeight="56.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../icons/book.png" />
+=======
+      <Button minHeight="80.0" mnemonicParsing="false" prefWidth="150.0" text="%add_book">
+         <graphic>
+            <ImageView fitHeight="54.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../icon/book.png" />
+>>>>>>> version-1.1
                </image>
             </ImageView>
          </graphic>
